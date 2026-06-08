@@ -76,51 +76,51 @@
 # l4.report()
 # l5.report()
 
-print("6.")
-class Laptop:
-    price = 50000
-    def __init__(self, brand, product, showroom,  ram, processor):
+# print("6.")
+# class Laptop:
+#     price = 50000
+#     def __init__(self, brand, product, showroom,  ram, processor):
 
-        self.ram = ram
-        self.brand = brand
-        self.product = product
-        self.showroom = showroom
-        self.processor = processor
+#         self.ram = ram
+#         self.brand = brand
+#         self.product = product
+#         self.showroom = showroom
+#         self.processor = processor
 
-    def report(self):
+#     def report(self):
 
-        print("Brand:", self.brand)
-        print("Product:", self.product)
-        print("Showroom:", self.showroom)
-        print("Price:", self.price)
-        print("RAM:", self.ram)
-        print("Processor:", self.processor)
-        print()
-
-
-l1 = Laptop("Lenovo", "IdeaPad Slim 3",
-            "Lenovo Exclusive Store",
-            "8GB", "Intel Core i3")
-
-l2 = Laptop("HP", "Victus 15",
-            "HP World",
-            "16GB", "AMD Ryzen 5")
-
-l3 = Laptop("Dell", "Inspiron 15",
-            "Dell Exclusive Store", 
-            "8GB", "Intel Core i5")
-
-l4 = Laptop("Acer", "Nitro V",
-            "Acer Mall",
-            "16GB", "Intel Core i7")
-
-l5 = Laptop("ASUS", "VivoBook 15",
-            "ASUS Exclusive Store", 
-            "8GB", "AMD Ryzen 3")
+#         print("Brand:", self.brand)
+#         print("Product:", self.product)
+#         print("Showroom:", self.showroom)
+#         print("Price:", self.price)
+#         print("RAM:", self.ram)
+#         print("Processor:", self.processor)
+#         print()
 
 
-l1.report()
-l2.report()
-l3.report()
-l4.report()
-l5.report()
+# l1 = Laptop("Lenovo", "IdeaPad Slim 3",
+#             "Lenovo Exclusive Store",
+#             "8GB", "Intel Core i3")
+
+# l2 = Laptop("HP", "Victus 15",
+#             "HP World",
+#             "16GB", "AMD Ryzen 5")
+
+# l3 = Laptop("Dell", "Inspiron 15",
+#             "Dell Exclusive Store", 
+#             "8GB", "Intel Core i5")
+
+# l4 = Laptop("Acer", "Nitro V",
+#             "Acer Mall",
+#             "16GB", "Intel Core i7")
+
+# l5 = Laptop("ASUS", "VivoBook 15",
+#             "ASUS Exclusive Store", 
+#             "8GB", "AMD Ryzen 3")
+
+
+# l1.report()
+# l2.report()
+# l3.report()
+# l4.report()
+# l5.report()

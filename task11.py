@@ -3,25 +3,25 @@ class employee:
         return 0
 
     
-class develpoer(employee):
+class Develpoer(employee):
    def salary(self):
         return 60000
     
-class tester (employee):
+class Tester (employee):
     def salary(self):
         return 70000
 
-class manager(employee):
+class Manager(employee):
     def salary(self):
         return 80000
 
 employees = [
-    develpoer(),
-    tester(),
-    manager()
+    Develpoer(),
+    Tester(),
+    Manager()
 ]
 
 for emp in employees:
     print(type(emp).__name__)
     print("salary:",emp.salary())
-    print()
+    # print()
